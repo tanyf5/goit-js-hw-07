@@ -66,7 +66,7 @@ body {
 }
 
 .item-list > li:hover {
-  border: #000000;
+  border: 1px solid #000000;
 }
 
 .gallery {
@@ -95,7 +95,7 @@ body {
 }
 
 #name-input:hover {
-  border: #000000;
+  border: 1px solid #000000;
 }
 
 .login-form {
@@ -118,7 +118,7 @@ body {
 }
 
 .login-form > label > input:hover {
-  border: #000000;
+  border: 1px solid #000000;
 }
 
 .login-form > button {
@@ -133,7 +133,7 @@ body {
 }
 
 .login-form > button:hover {
-  background-color: ##6C8CFF;
+  background-color: #6C8CFF;
 }
 
 .widget {
@@ -177,7 +177,7 @@ body {
 }
 
 #controls > input:hover {
-  border: #000000;
+  border: 1px solid #000000;
 }
 
 .blue {
