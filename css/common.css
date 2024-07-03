@@ -65,7 +65,7 @@ body {
   border-radius: 4px;
 }
 
-.item-list > li :hover {
+.item-list > li:hover {
   border: #000000;
 }
 
@@ -94,7 +94,7 @@ body {
   padding-bottom: 8px;
 }
 
-#name-input :hover {
+#name-input:hover {
   border: #000000;
 }
 
@@ -117,7 +117,7 @@ body {
   border: 1px solid #808080;
 }
 
-.login-form > label > input :hover {
+.login-form > label > input:hover {
   border: #000000;
 }
 
@@ -132,7 +132,7 @@ body {
   margin-top: 16px;
 }
 
-.login-form > button :hover {
+.login-form > button:hover {
   background-color: ##6C8CFF;
 }
 
@@ -154,7 +154,7 @@ body {
   border: none;
 }
 
-.change-color :hover {
+.change-color:hover {
   background-color: #6C8CFF;
 }
 
@@ -176,7 +176,7 @@ body {
   border: 1px solid #808080;
 }
 
-#controls > input :hover {
+#controls > input:hover {
   border: #000000;
 }
 
@@ -191,7 +191,7 @@ body {
   color: #FFFFFF;
 }
 
-.blue :hover {
+.blue:hover {
   background-color: #6C8CFF;
 }
 
@@ -206,7 +206,7 @@ body {
   color: #FFFFFF;
 }
 
-.red :hover {
+.red:hover {
   background-color: #FF7070;
 }
 
