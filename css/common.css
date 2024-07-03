@@ -65,6 +65,10 @@ body {
   border-radius: 4px;
 }
 
+.item-list > li :hover {
+  border: #000000;
+}
+
 .gallery {
   display: flex;
   list-style-type: none;
@@ -90,6 +94,10 @@ body {
   padding-bottom: 8px;
 }
 
+#name-input :hover {
+  border: #000000;
+}
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -109,6 +117,10 @@ body {
   border: 1px solid #808080;
 }
 
+.login-form > label > input :hover {
+  border: #000000;
+}
+
 .login-form > button {
   width: 86px;
   height: 40px;
@@ -118,6 +130,10 @@ body {
   color: #FFFFFF;
   border: none;
   margin-top: 16px;
+}
+
+.login-form > button :hover {
+  background-color: ##6C8CFF;
 }
 
 .widget {
@@ -138,6 +154,10 @@ body {
   border: none;
 }
 
+.change-color :hover {
+  background-color: #6C8CFF;
+}
+
 #controls {
   display: flex;
   gap: 16px;
@@ -156,6 +176,10 @@ body {
   border: 1px solid #808080;
 }
 
+#controls > input :hover {
+  border: #000000;
+}
+
 .blue {
   width: 120px;
   height: 40px;
@@ -167,6 +191,10 @@ body {
   color: #FFFFFF;
 }
 
+.blue :hover {
+  background-color: #6C8CFF;
+}
+
 .red {
   width: 120px;
   height: 40px;
@@ -176,6 +204,10 @@ body {
   border: none;
   background-color: #FF4E4E;
   color: #FFFFFF;
+}
+
+.red :hover {
+  background-color: #FF7070;
 }
 
 #boxes {
