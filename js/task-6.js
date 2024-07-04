@@ -15,17 +15,19 @@ createBtn.addEventListener('click', () => {
 });
 
 destroyBtn.addEventListener('click', () => {
-    boxesContainer.innerHTML = '';
+    destroyBoxes();
 });
 
 function createBoxes(amount) {
+    const fragment = document.createDocumentFragment(); // Create a document fragment
     for (let i = 0; i < amount; i++) {
         const box = document.createElement('div');
         box.style.width = 30 + i * 10 + 'px';
         box.style.height = 30 + i * 10 + 'px';
         box.style.backgroundColor = getRandomHexColor();
-        boxesContainer.appendChild(box);
+        fragment.appendChild(box); // Append each box to the fragment
     }
+    boxesContainer.appendChild(fragment); // Append the fragment to the boxesContainer
 }
 
 function getRandomHexColor() {
@@ -35,6 +37,5 @@ function getRandomHexColor() {
 }
 
 function destroyBoxes() {
-  const boxesContainer = document.getElementById('boxes');
   boxesContainer.innerHTML = '';
 }
